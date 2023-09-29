@@ -435,31 +435,31 @@
     "mainLayout": {
       "type": 1,
       "width": 1512,
-      "height": 818,
+      "height": 921,
       "direction": 2,
       "shifters": [
         {
           "type": 1,
           "width": 1512,
-          "height": 818,
+          "height": 921,
           "direction": 2,
           "shifters": [
             {
               "type": 1,
               "width": 1512,
-              "height": 486,
+              "height": 820,
               "direction": 1,
               "shifters": [
                 {
                   "type": 1,
                   "width": 249,
-                  "height": 486,
+                  "height": 820,
                   "direction": 2,
                   "shifters": [
                     {
                       "type": 0,
                       "width": 249,
-                      "height": 253,
+                      "height": 421,
                       "currentContent": "Modules",
                       "tabs": [
                         {
@@ -470,7 +470,7 @@
                     {
                       "type": 0,
                       "width": 249,
-                      "height": 226,
+                      "height": 393,
                       "currentContent": "Custom Variables",
                       "tabs": [
                         {
@@ -483,7 +483,7 @@
                 {
                   "type": 0,
                   "width": 755,
-                  "height": 486,
+                  "height": 820,
                   "currentContent": "State Machine",
                   "tabs": [
                     {
@@ -500,7 +500,7 @@
                 {
                   "type": 0,
                   "width": 496,
-                  "height": 486,
+                  "height": 820,
                   "currentContent": "Inspector",
                   "tabs": [
                     {
@@ -513,13 +513,13 @@
             {
               "type": 1,
               "width": 1512,
-              "height": 326,
+              "height": 94,
               "direction": 1,
               "shifters": [
                 {
                   "type": 0,
                   "width": 178,
-                  "height": 326,
+                  "height": 94,
                   "currentContent": "Sequences",
                   "tabs": [
                     {
@@ -530,7 +530,7 @@
                 {
                   "type": 0,
                   "width": 1091,
-                  "height": 326,
+                  "height": 94,
                   "currentContent": "Sequence Editor",
                   "tabs": [
                     {
@@ -541,7 +541,7 @@
                 {
                   "type": 0,
                   "width": 231,
-                  "height": 326,
+                  "height": 94,
                   "currentContent": "Logger",
                   "tabs": [
                     {
@@ -813,7 +813,7 @@
               "shortName": "_a"
             },
             {
-              "value": 0.2196078449487686,
+              "value": 0.3764705955982208,
               "controlAddress": "/_b",
               "type": "Float",
               "niceName": "/b",
@@ -825,7 +825,7 @@
               "shortName": "_b"
             },
             {
-              "value": -0.01101775094866753,
+              "value": -0.1072499006986618,
               "controlAddress": "/_chan1",
               "type": "Float",
               "niceName": "/chan1",
@@ -837,7 +837,7 @@
               "shortName": "_chan1"
             },
             {
-              "value": 0.917785108089447,
+              "value": -0.9996525645256042,
               "controlAddress": "/_chan2",
               "type": "Float",
               "niceName": "/chan2",
@@ -849,7 +849,7 @@
               "shortName": "_chan2"
             },
             {
-              "value": 1.0,
+              "value": 0.7803921699523926,
               "controlAddress": "/_g",
               "type": "Float",
               "niceName": "/g",
@@ -861,7 +861,7 @@
               "shortName": "_g"
             },
             {
-              "value": 0.4588235318660736,
+              "value": 0.6549019813537598,
               "controlAddress": "/_r",
               "type": "Float",
               "niceName": "/r",
@@ -924,7 +924,7 @@
             {
               "parameters": [
                 {
-                  "value": 1.0,
+                  "value": 0.2,
                   "controlAddress": "/red",
                   "feedbackOnly": false,
                   "type": "Float",
@@ -942,7 +942,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.8823529481887817,
+                  "value": 3.399998903274536,
                   "controlAddress": "/green",
                   "feedbackOnly": false,
                   "type": "Float",
@@ -960,7 +960,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.6941176652908325,
+                  "value": -3.199999570846558,
                   "controlAddress": "/blue",
                   "feedbackOnly": false,
                   "type": "Float",
@@ -1190,7 +1190,7 @@
             {
               "parameters": [
                 {
-                  "value": 0.7254902124404907,
+                  "value": 18.52549743652344,
                   "controlAddress": "/red",
                   "feedbackOnly": false,
                   "type": "Float",
@@ -1208,6 +1208,7 @@
             {
               "parameters": [
                 {
+                  "value": 14.8254976272583,
                   "controlAddress": "/green",
                   "feedbackOnly": false,
                   "type": "Float",
@@ -1225,6 +1226,7 @@
             {
               "parameters": [
                 {
+                  "value": 20.22549819946289,
                   "controlAddress": "/blue",
                   "feedbackOnly": false,
                   "type": "Float",
@@ -2529,7 +2531,7 @@
                   {
                     "parameters": [
                       {
-                        "value": "/modules/dmx/values/channel107",
+                        "value": "/customVariables/customVariables/values/lyreTopGauche/dimmer",
                         "controlAddress": "/inputValue"
                       }
                     ],
@@ -2626,6 +2628,38 @@
               "editorIsCollapsed": true,
               "type": "Mapping",
               "im": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": "/customVariables/customVariables/values/lyreTopGauche/red",
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "Input Value",
+                    "type": "Input Value"
+                  },
+                  {
+                    "parameters": [
+                      {
+                        "value": "/customVariables/customVariables/values/lyreTopGauche/green",
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "Input Value 2",
+                    "type": "Input Value"
+                  },
+                  {
+                    "parameters": [
+                      {
+                        "value": "/customVariables/customVariables/values/lyreTopGauche/blue",
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "Input Value 1",
+                    "type": "Input Value"
+                  }
+                ],
                 "viewOffset": [
                   0,
                   0
@@ -2652,28 +2686,21 @@
               "outputs": {
                 "items": [
                   {
-                    "parameters": [
-                      {
-                        "value": false,
-                        "controlAddress": "/enabled"
-                      }
-                    ],
-                    "niceName": "MappingOutput",
-                    "editorIsCollapsed": true,
+                    "niceName": "MappingOutput 2",
                     "type": "BaseItem",
                     "commandModule": "dmx",
                     "commandPath": "",
-                    "commandType": "Set value",
+                    "commandType": "Set Color",
                     "command": {
                       "parameters": [
                         {
                           "value": 109,
                           "hexMode": false,
-                          "controlAddress": "/channel"
+                          "controlAddress": "/startChannel"
                         }
                       ],
                       "paramLinks": {
-                        "value": {
+                        "color": {
                           "linkType": 1,
                           "mappingValueIndex": 0
                         }
@@ -2710,23 +2737,59 @@
                     }
                   },
                   {
-                    "niceName": "MappingOutput 2",
+                    "niceName": "MappingOutput 4",
                     "type": "BaseItem",
-                    "commandModule": "dmx",
+                    "commandModule": "customVariables",
                     "commandPath": "",
-                    "commandType": "Set Color",
+                    "commandType": "Set Value",
                     "command": {
                       "parameters": [
                         {
-                          "value": 109,
-                          "hexMode": false,
-                          "controlAddress": "/startChannel"
+                          "value": "/lyreTopGauche/green",
+                          "controlAddress": "/target"
+                        },
+                        {
+                          "value": "All",
+                          "controlAddress": "/component"
+                        },
+                        {
+                          "value": "Equals",
+                          "controlAddress": "/operator"
                         }
                       ],
                       "paramLinks": {
-                        "color": {
+                        "value": {
                           "linkType": 1,
-                          "mappingValueIndex": 0
+                          "mappingValueIndex": 1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "niceName": "MappingOutput 3",
+                    "type": "BaseItem",
+                    "commandModule": "customVariables",
+                    "commandPath": "",
+                    "commandType": "Set Value",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/lyreTopGauche/blue",
+                          "controlAddress": "/target"
+                        },
+                        {
+                          "value": "All",
+                          "controlAddress": "/component"
+                        },
+                        {
+                          "value": "Equals",
+                          "controlAddress": "/operator"
+                        }
+                      ],
+                      "paramLinks": {
+                        "value": {
+                          "linkType": 1,
+                          "mappingValueIndex": 2
                         }
                       }
                     }
@@ -5464,7 +5527,7 @@
                     "command": {
                       "parameters": [
                         {
-                          "value": "/lyreTopGauche/dimmer",
+                          "value": "/lyreTopDroite/dimmer",
                           "controlAddress": "/target"
                         },
                         {
@@ -5497,6 +5560,38 @@
               "editorIsCollapsed": true,
               "type": "Mapping",
               "im": {
+                "items": [
+                  {
+                    "parameters": [
+                      {
+                        "value": "/customVariables/customVariables/values/lyreTopDroite/red",
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "Input Value",
+                    "type": "Input Value"
+                  },
+                  {
+                    "parameters": [
+                      {
+                        "value": "/customVariables/customVariables/values/lyreTopDroite/green",
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "Input Value 2",
+                    "type": "Input Value"
+                  },
+                  {
+                    "parameters": [
+                      {
+                        "value": "/customVariables/customVariables/values/lyreTopDroite/blue",
+                        "controlAddress": "/inputValue"
+                      }
+                    ],
+                    "niceName": "Input Value 1",
+                    "type": "Input Value"
+                  }
+                ],
                 "viewOffset": [
                   0,
                   0
@@ -5569,6 +5664,64 @@
                         "value": {
                           "linkType": 1,
                           "mappingValueIndex": 0
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "niceName": "MappingOutput 3",
+                    "type": "BaseItem",
+                    "commandModule": "customVariables",
+                    "commandPath": "",
+                    "commandType": "Set Value",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/lyreTopDroite/green",
+                          "controlAddress": "/target"
+                        },
+                        {
+                          "value": "All",
+                          "controlAddress": "/component"
+                        },
+                        {
+                          "value": "Equals",
+                          "controlAddress": "/operator"
+                        }
+                      ],
+                      "paramLinks": {
+                        "value": {
+                          "linkType": 1,
+                          "mappingValueIndex": 1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "niceName": "MappingOutput 2",
+                    "type": "BaseItem",
+                    "commandModule": "customVariables",
+                    "commandPath": "",
+                    "commandType": "Set Value",
+                    "command": {
+                      "parameters": [
+                        {
+                          "value": "/lyreTopDroite/blue",
+                          "controlAddress": "/target"
+                        },
+                        {
+                          "value": "All",
+                          "controlAddress": "/component"
+                        },
+                        {
+                          "value": "Equals",
+                          "controlAddress": "/operator"
+                        }
+                      ],
+                      "paramLinks": {
+                        "value": {
+                          "linkType": 1,
+                          "mappingValueIndex": 2
                         }
                       }
                     }
@@ -6244,8 +6397,8 @@
       }
     ],
     "viewOffset": [
-      342,
-      -88
+      82,
+      -192
     ],
     "viewZoom": 1.0,
     "transitions": {
@@ -6259,8 +6412,8 @@
     "comments": {
       "hideInEditor": true,
       "viewOffset": [
-        342,
-        -88
+        82,
+        -192
       ],
       "viewZoom": 1.0
     }
@@ -6268,6 +6421,12 @@
   "sequences": {
     "items": [
       {
+        "parameters": [
+          {
+            "value": true,
+            "controlAddress": "/loop"
+          }
+        ],
         "niceName": "Sequence",
         "type": "Sequence",
         "layers": {
@@ -6276,49 +6435,12 @@
             {
               "parameters": [
                 {
-                  "value": 120.0,
+                  "value": 60.0,
                   "controlAddress": "/listSize"
-                },
-                {
-                  "value": 120,
-                  "hexMode": false,
-                  "controlAddress": "/uiHeight"
                 }
               ],
-              "niceName": "Mapping",
+              "niceName": "Color",
               "containers": {
-                "automation": {
-                  "parameters": [
-                    {
-                      "value": 30.0,
-                      "controlAddress": "/length"
-                    },
-                    {
-                      "value": [
-                        0.0,
-                        1.0
-                      ],
-                      "controlAddress": "/viewValueRange"
-                    },
-                    {
-                      "value": [
-                        0.0,
-                        1.0
-                      ],
-                      "controlAddress": "/range",
-                      "enabled": true
-                    }
-                  ],
-                  "hideInEditor": true,
-                  "viewOffset": [
-                    0,
-                    0
-                  ],
-                  "viewZoom": 1.0
-                },
-                "recorder": {
-                  "editorIsCollapsed": true
-                },
                 "mapping": {
                   "niceName": "Mapping",
                   "type": "Mapping",
@@ -6360,15 +6482,167 @@
                     "viewZoom": 1.0
                   },
                   "outputs": {
+                    "items": [
+                      {
+                        "niceName": "MappingOutput",
+                        "type": "BaseItem",
+                        "commandModule": "osc",
+                        "commandPath": "",
+                        "commandType": "Custom Message",
+                        "command": {
+                          "paramLinks": {
+                          },
+                          "argManager": {
+                            "items": [
+                              {
+                                "parameters": [
+                                  {
+                                    "value": [
+                                      1.0,
+                                      1.0,
+                                      1.0,
+                                      1.0
+                                    ],
+                                    "controlAddress": "/#1"
+                                  }
+                                ],
+                                "niceName": "#1",
+                                "type": "Color",
+                                "param": {
+                                  "value": [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                  ],
+                                  "controlAddress": "/sequences/sequence/layers/color/mapping/outputs/mappingOutput/command/arguments/#1/#1"
+                                },
+                                "paramLink": {
+                                  "linkType": 1,
+                                  "mappingValueIndex": 0
+                                }
+                              }
+                            ],
+                            "viewOffset": [
+                              0,
+                              0
+                            ],
+                            "viewZoom": 1.0
+                          }
+                        }
+                      }
+                    ],
                     "viewOffset": [
                       0,
                       0
                     ],
                     "viewZoom": 1.0
                   }
+                },
+                "colors": {
+                  "editorIsCollapsed": true,
+                  "hideInEditor": true,
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "controlAddress": "/color"
+                        }
+                      ],
+                      "niceName": "Color 1",
+                      "type": "BaseItem"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 1.758241772651672,
+                          "controlAddress": "/time"
+                        },
+                        {
+                          "value": [
+                            0.6235294342041016,
+                            0.6941176652908325,
+                            1.0,
+                            1.0
+                          ],
+                          "controlAddress": "/color"
+                        }
+                      ],
+                      "niceName": "Color 2",
+                      "type": "BaseItem"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 6.227106094360352,
+                          "controlAddress": "/time"
+                        },
+                        {
+                          "value": [
+                            0.7529411911964417,
+                            0.5254902243614197,
+                            1.0,
+                            1.0
+                          ],
+                          "controlAddress": "/color"
+                        }
+                      ],
+                      "niceName": "Color 3",
+                      "type": "BaseItem"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 11.28205108642578,
+                          "controlAddress": "/time"
+                        },
+                        {
+                          "value": [
+                            0.5843137502670288,
+                            1.0,
+                            0.1137254908680916,
+                            1.0
+                          ],
+                          "controlAddress": "/color"
+                        }
+                      ],
+                      "niceName": "Color 4",
+                      "type": "BaseItem"
+                    },
+                    {
+                      "parameters": [
+                        {
+                          "value": 24.32234573364258,
+                          "controlAddress": "/time"
+                        },
+                        {
+                          "value": [
+                            1.0,
+                            0.7686274647712708,
+                            0.4313725531101227,
+                            1.0
+                          ],
+                          "controlAddress": "/color"
+                        }
+                      ],
+                      "niceName": "Color 5",
+                      "type": "BaseItem"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
                 }
               },
-              "type": "Mapping"
+              "type": "Color"
             }
           ],
           "viewOffset": [
