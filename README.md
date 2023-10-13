@@ -1,12 +1,15 @@
 # TouchDesigner X Chataigne
 
-**Ou comment amener des couleurs et des valeurs en temps réel depuis Touchdesigner dans Chataigne.**
+**Ou comment échanger des couleurs et des valeurs en temps réel entre Touchdesigner et Chataigne.**
 
 ### Avant tout :
 
-- Le [tuto introduction à Touchdesigner](https://github.com/LucieMrc/IntroTD) (EN).
+Ce tuto nécessite de comprendre le fonctionnement de base de Touchdesigner et de Chataigne, et a pour but surtout d'utiliser les valeurs échangées pour contrôler les lumières de la salle fond vert en DMX.
+
+- Le tuto pour [contrôler les lights de la salle fond vert](https://github.com/LucieMrc/SalleFondVert_Controller).
+- Le tuto [introduction à Touchdesigner](https://github.com/LucieMrc/IntroTD) (EN)
 - La [documentation officielle de Chataigne](https://bkuperberg.gitbook.io/chataigne-docs/v/fr/)
-- Le [tuto introduction à Chataigne](https://github.com/LucieMrc/Chataigne_2spi) (🚧 en travaux 🚧).
+- Le tuto [introduction à Chataigne](https://github.com/LucieMrc/Chataigne_2spi) (🚧 en travaux 🚧)
 
 # De TouchDesigner à Chataigne
 
